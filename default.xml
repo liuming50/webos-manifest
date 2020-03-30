@@ -17,7 +17,7 @@
   <project remote="updater" name="meta-updater" path="sources/meta-updater"/>
   <project remote="webos" name="meta-webosose" path="sources/meta-webosose" revision="master"/>
   <project remote="qt5" name="meta-qt5" path="sources/meta-qt5" revision="warrior"/>
-  <project remote="bitbake-completion" name="bitbake-bash-completion" path="sources/bitbake-bash-completion"/>
+  <project remote="bitbake-completion" name="bitbake-bash-completion" path="sources/bitbake-bash-completion" revision="master"/>
 
   <project remote="ming" name="meta-webos-integration" path="sources/meta-webos-integration">
     <linkfile dest="poky-init-build-env" src="poky-init-build-env"/>
