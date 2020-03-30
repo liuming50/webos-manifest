@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="thud"/>
+
+  <remote fetch="https://github.com/liuming50" name="ming"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+  <remote fetch="https://github.com/advancedtelematic" name="updater"/>
+  <remote fetch="https://github.com/webosose" name="webos"/>
+  <remote fetch="https://github.com/sergioprado" name="bitbake-completion"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+
+  <project remote="yocto" name="poky" path="sources/poky"/>
+  <project remote="yocto" name="meta-security" path="sources/meta-security"/>
+  <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="updater" name="meta-updater" path="sources/meta-updater"/>
+  <project remote="webos" name="meta-webosose" path="sources/meta-webosose" revision="master"/>
+  <project remote="qt5" name="meta-qt5" path="sources/meta-qt5" revision="warrior"/>
+  <project remote="bitbake-completion" name="bitbake-bash-completion" path="sources/bitbake-bash-completion"/>
+
+  <project remote="ming" name="meta-webos-integration" path="sources/meta-webos-integration">
+    <linkfile dest="poky-init-build-env" src="poky-init-build-env"/>
+    <linkfile dest="README.md" src="README.md"/>
+  </project>
+</manifest>
