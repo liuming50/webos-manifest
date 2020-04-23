@@ -10,14 +10,14 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
 
-  <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="yocto" name="meta-security" path="sources/meta-security"/>
-  <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization"/>
-  <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
-  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="updater" name="meta-updater" path="sources/meta-updater"/>
-  <project remote="webos" name="meta-webosose" path="sources/meta-webosose" revision="master"/>
-  <project remote="qt5" name="meta-qt5" path="sources/meta-qt5" revision="warrior"/>
+  <project remote="yocto" name="poky" path="sources/poky" revision="958427e9d2ee7276887f2b02ba85cf0996dea553"/>
+  <project remote="yocto" name="meta-security" path="sources/meta-security" revision="31dc4e7532fa7a82060e0b50e5eb8d0414aa7e93"/>
+  <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization" revision="7685c7d415e0002c448007960837ae8898cd57a5"/>
+  <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi" revision="4e5be97d75668804694412f9b86e9291edb38b9d"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93"/>
+  <project remote="updater" name="meta-updater" path="sources/meta-updater" revision="2d7393861c9f907c21ee12cbef814aa027fc97c5"/>
+  <project remote="webos" name="meta-webosose" path="sources/meta-webosose" revision="66608405f7ffbe711cd4edc16d38e06611ec1bc8"/>
+  <project remote="qt5" name="meta-qt5" path="sources/meta-qt5" revision="20331bd6b696793a7aa23a3c035e5ebcf3075aa3"/>
   <project remote="bitbake-completion" name="bitbake-bash-completion" path="sources/bitbake-bash-completion" revision="master"/>
 
   <project remote="ming" name="meta-webos-integration" path="sources/meta-webos-integration" revision="master">
